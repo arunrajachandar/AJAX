@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GET POST tryout</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link id="css" href="word.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Find Related Words</h1>
+    </div>
+    <div class = "container">
+            <form class="fields" >
+                    <div class ="inputStuff">
+                            <label id="prompt" for="inputField">Enter a word</label>
+                            <input type="text" name="word" id ="inputField"/>
+         
+                    </div>
+                    <input type="button" name="submit" id="wordButton" value='Submit'>
+                    <input type="button" name="submit" id="shortenButton" value ='Shorten'>
+                </form>
+            <div id="responseField">
+                    Welcome
+
+            </div>
+            
+    </div>
+    <div class="switchButton">
+            <button  id="toggleButton">Switch to POST Request</button>
+
+    </div>
+
+      <script src="main.js"></script>
+  <script src="helperFunctions.js"></script>
+  <script src="toggle.js"></script>
+
+</body>
+</html>

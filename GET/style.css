@@ -1,0 +1,51 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    display: block;
+}
+
+.container{
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+}
+
+.fields{
+display: block;
+align-items: inherit;
+height: 100px;
+}
+
+.inputStuff{
+padding: 10px;
+margin: 0 auto;
+
+}
+  
+#responseField{
+    max-height: 80%;
+    padding: 40px;
+
+
+}
+.switchButton{
+    margin: 10px auto;
+}
+#toggleButton {
+    background-color: green;
+    padding: .5em;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+
+   }  
